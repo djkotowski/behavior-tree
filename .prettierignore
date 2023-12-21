@@ -1,0 +1,10 @@
+# Yarn
+.yarn/*
+.pnp.*
+
+# lib files
+lib/
+
+# Other
+.husky/
+node_modules/
