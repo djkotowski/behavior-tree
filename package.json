@@ -1,0 +1,21 @@
+{
+  "name": "behavior-tree",
+  "version": "0.1.0",
+  "description": "A TypeScript implementation of a behavior tree",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "https://github.com/djkotowski/behavior-tree",
+  "author": "Dan Kotowski <dan@dankotowski.dev>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf ./lib/ && tsc",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "yarn@4.0.2"
+}
